@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bgGradient192" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e5fbe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d47a1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" fill="url(#bgGradient192)" rx="30"/>
+  <g transform="translate(48, 37.5)">
+    <path d="M 48 52.5 L 48 30 C 48 13.458 61.458 0 78 0 C 94.542 0 108 13.458 108 30 L 108 52.5"
+          fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+    <rect x="18.75" y="45" width="118.5" height="90" rx="9" fill="#ffffff"/>
+    <path d="M 78 75 L 78 82.5 M 78 75 C 73.945 75 70.875 78.191 70.875 82.125 C 70.875 85.229 72.886 87.86 75.687 88.907 L 78 97.5 L 80.313 88.907 C 83.114 87.86 85.125 85.229 85.125 82.125 C 85.125 78.191 82.055 75 78 75 Z"
+          fill="#0d47a1" stroke="#0d47a1" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 67.5 90 L 67.5 71.25 C 67.5 65.451 72.201 60.75 78 60.75 C 83.799 60.75 88.5 65.451 88.5 71.25 L 88.5 90"
+          fill="none" stroke="#0d47a1" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+</svg>

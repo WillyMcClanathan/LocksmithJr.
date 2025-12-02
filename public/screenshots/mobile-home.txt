@@ -1,0 +1,4 @@
+Screenshot placeholder for PWABuilder
+Mobile Home Screen - 750x1334
+This file serves as a reference for required screenshots.
+Actual screenshots should be captured from the running application.

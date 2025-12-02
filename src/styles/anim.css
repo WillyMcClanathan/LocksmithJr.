@@ -1,0 +1,42 @@
+/* CSS animation utilities for step transitions */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-active {
+  transition: opacity 0.24s ease, transform 0.24s ease;
+}
+
+.fade-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scale animations for modals */
+.scale-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.scale-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.scale-show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Backdrop fade */
+.backdrop-enter {
+  opacity: 0;
+}
+
+.backdrop-active {
+  transition: opacity 0.2s ease;
+}
+
+.backdrop-show {
+  opacity: 1;
+}

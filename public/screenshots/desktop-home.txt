@@ -1,0 +1,4 @@
+Screenshot placeholder for PWABuilder
+Desktop Home Screen - 1280x720
+This file serves as a reference for required screenshots.
+Actual screenshots should be captured from the running application.
