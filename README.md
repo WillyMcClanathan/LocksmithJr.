@@ -7,13 +7,13 @@ A client-side password manager demonstrating modern web cryptography, built for 
 ![PWA](https://img.shields.io/badge/PWA-enabled-purple)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-## ⚠️ Important Notice
+## Important Notice
 
 **This is an educational project designed to demonstrate cryptographic concepts.** While it implements industry-standard encryption (AES-GCM, PBKDF2), it should **not replace production password managers** like Bitwarden, 1Password, or KeePass for storing sensitive credentials.
 
-## ✨ Features
+## Features
 
-### 🔐 Security
+### Security
 - **Zero-knowledge encryption** - Master password never leaves your device
 - **AES-GCM encryption** - 256-bit keys with authenticated encryption
 - **PBKDF2-SHA256** - 150,000 iterations for key derivation
@@ -22,24 +22,24 @@ A client-side password manager demonstrating modern web cryptography, built for 
 - **Panic lock** - Instant memory clearing
 - **Session safety** - Activity monitoring and beforeunload protection
 
-### 🛠️ Password Tools
+### Password Tools
 - **Smart generator** - Length 8-32, customizable character sets
 - **Strength analyzer** - Entropy calculation with improvement hints
 - **Avoid ambiguous** - Optional exclusion of confusing characters
 - **One-click replace** - Generate and insert directly into fields
 
-### 📱 PWA Features
+### PWA Features
 - **Installable** - Works as standalone app on desktop and mobile
 - **Offline-first** - Full functionality without internet
 - **Service worker** - Caches app shell (not vault data)
 - **Works offline badge** - Visual indicator after SW activation
 
-### 🎓 Educational
+### Educational
 - **Interactive explainer** - Step-by-step cryptography walkthrough
 - **Learn mode** - Understand encryption while using it
 - **Open source** - All code available for review
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -69,7 +69,7 @@ A client-side password manager demonstrating modern web cryptography, built for 
 - **Service Worker** - Offline caching
 - **TypeScript** - Type safety
 
-## 🔒 Cryptography Details
+## Cryptography Details
 
 ### Key Derivation (PBKDF2)
 ```
@@ -96,7 +96,7 @@ Plaintext + AES-256-GCM + 12-byte IV → Ciphertext + Auth Tag
 
 See [docs/CRYPTOGRAPHY.md](docs/CRYPTOGRAPHY.md) for detailed explanation.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -146,7 +146,7 @@ netlify deploy --prod --dir=dist
 
 See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 
-## 📖 Documentation
+## Documentation
 
 - **[Architecture](docs/ARCHITECTURE.md)** - System design and component overview
 - **[Cryptography](docs/CRYPTOGRAPHY.md)** - Encryption implementation details
@@ -154,7 +154,7 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 - **[Deployment](docs/DEPLOYMENT.md)** - Production deployment guide
 - **[Demo Script](docs/DEMO.md)** - 60-second walkthrough
 
-## 🎯 Threat Model
+## Threat Model
 
 ### What Locksmith Jr. Protects Against
 ✅ Local disk access (encrypted at rest)
@@ -173,7 +173,7 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 
 See [docs/SECURITY.md](docs/SECURITY.md) for complete threat model.
 
-## 🔐 Security Checklist
+## Security Checklist
 
 Before using Locksmith Jr.:
 
@@ -185,7 +185,7 @@ Before using Locksmith Jr.:
 - [ ] **Enable auto-lock** - Don't leave vault unlocked
 - [ ] **Test recovery** - Verify you can decrypt exports
 
-## 🕒 60-Second Demo
+## 60-Second Demo
 
 ```
 1. Visit app → Click "Create Vault"
@@ -200,7 +200,7 @@ Before using Locksmith Jr.:
 
 See [docs/DEMO.md](docs/DEMO.md) for detailed walkthrough.
 
-## 🛡️ Privacy
+## Privacy
 
 **No telemetry. No tracking. No cloud storage.**
 
@@ -210,7 +210,7 @@ See [docs/DEMO.md](docs/DEMO.md) for detailed walkthrough.
 - Vault data never transmitted anywhere
 - Service worker only caches app shell
 
-## 🏛️ Technology Stack
+## Technology Stack
 
 - **React 18** - UI framework
 - **TypeScript** - Type safety
@@ -221,7 +221,7 @@ See [docs/DEMO.md](docs/DEMO.md) for detailed walkthrough.
 - **IndexedDB (idb)** - Local storage
 - **Web Crypto API** - Encryption
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 locksmith-jr/
@@ -239,7 +239,7 @@ locksmith-jr/
 └── README.md          # This file
 ```
 
-## 🧪 Development
+## Development
 
 ```bash
 # Type checking
@@ -252,7 +252,7 @@ npm run lint
 npm run build
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project. Contributions welcome:
 
@@ -262,17 +262,17 @@ This is an educational project. Contributions welcome:
 4. Push to branch (`git push origin feature/amazing`)
 5. Open Pull Request
 
-## 📝 License
+## License
 
 MIT License - See [LICENSE](LICENSE) file
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by modern password managers (Bitwarden, 1Password)
 - Built with Web Crypto API standards
 - Educational content adapted from cryptography best practices
 
-## ⚡ Performance
+## Performance
 
 - **Bundle size:** ~282 KB (gzipped: ~81 KB)
 - **First load:** < 1s on fast 3G
@@ -280,11 +280,11 @@ MIT License - See [LICENSE](LICENSE) file
 - **Decryption:** < 50ms with cached key
 - **PWA cache:** < 500ms cold start offline
 
-## 🔗 Links
+## Links
 
-- **Live Demo:** [locksmith-jr.example.com](https://locksmith-jr.example.com)
+- **Live Demo:** [locksmith-jr.vercel.app](locksmith-jr.vercel.app)
 - **Documentation:** [docs/](docs/)
-- **Issues:** [GitHub Issues](https://github.com/yourusername/locksmith-jr/issues)
+- **Issues:** [GitHub Issues](https://github.com/WillyMcClanathan/locksmith-jr/issues)
 
 ---
 
