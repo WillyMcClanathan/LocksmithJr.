@@ -207,10 +207,10 @@ Step 4: Update Storage
 - Key derived from strong password via PBKDF2
 
 **Threat Model:**
-- ✅ Protects against: Offline brute force (with strong password)
-- ✅ Protects against: Ciphertext-only attacks
-- ❌ Does not protect: Weak passwords (< 12 chars, dictionary words)
-- ❌ Does not protect: Keyloggers capturing password
+- Protects against: Offline brute force (with strong password)
+- Protects against: Ciphertext-only attacks
+- Does not protect: Weak passwords (< 12 chars, dictionary words)
+- Does not protect: Keyloggers capturing password
 
 ### Integrity
 
@@ -221,10 +221,10 @@ Step 4: Update Storage
 - Tag verified during decryption
 
 **Guarantees:**
-- ✅ Tampering detected immediately
-- ✅ Truncation attacks prevented
-- ✅ Bit-flipping attacks prevented
-- ✅ Replay attacks (partially, via IV check)
+- Tampering detected immediately
+- Truncation attacks prevented
+- Bit-flipping attacks prevented
+- Replay attacks (partially, via IV check)
 
 ### Authenticity
 
@@ -235,9 +235,9 @@ Step 4: Update Storage
 - Auth tag cryptographically bound to key
 
 **Guarantees:**
-- ✅ Forgery computationally infeasible
-- ✅ Third-party cannot inject entries
-- ❌ No forward secrecy (compromise of key reveals all past data)
+- Forgery computationally infeasible
+- Third-party cannot inject entries
+- No forward secrecy (compromise of key reveals all past data)
 
 ## Randomness
 
@@ -308,10 +308,10 @@ crypto.getRandomValues(array)
 - Used via Web Crypto API only
 
 **Never Stored:**
-- ❌ Never written to disk
-- ❌ Never sent over network
-- ❌ Never logged or serialized
-- ❌ Never in localStorage/sessionStorage
+- Never written to disk
+- Never sent over network
+- Never logged or serialized
+- Never in localStorage/sessionStorage
 
 ### Key Derivation Parameters
 
