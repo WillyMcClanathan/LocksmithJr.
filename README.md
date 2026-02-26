@@ -288,6 +288,4 @@ MIT License - See [LICENSE](LICENSE) file
 
 ---
 
-**Built with 🔐 for learning web cryptography**
-
 **Remember:** This is an educational tool. Use production password managers for sensitive data.
