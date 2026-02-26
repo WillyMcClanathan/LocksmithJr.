@@ -152,7 +152,6 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 - **[Cryptography](docs/CRYPTOGRAPHY.md)** - Encryption implementation details
 - **[Security](docs/SECURITY.md)** - Threat model, limitations, best practices
 - **[Deployment](docs/DEPLOYMENT.md)** - Production deployment guide
-- **[Demo Script](docs/DEMO.md)** - 60-second walkthrough
 
 ## Threat Model
 
