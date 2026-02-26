@@ -157,17 +157,17 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed instructions.
 ## Threat Model
 
 ### What Locksmith Jr. Protects Against
-✅ Local disk access (encrypted at rest)
-✅ Memory dumps while locked
-✅ Unauthorized vault access
-✅ Weak password generation
+  Local disk access (encrypted at rest)
+  Memory dumps while locked
+  Unauthorized vault access
+  Weak password generation
 
 ### What It Does NOT Protect Against
-❌ Keyloggers or screen capture malware
-❌ Compromised browser or OS
-❌ Physical device theft with weak master password
-❌ Side-channel attacks (timing, power analysis)
-❌ Phishing for master password
+  Keyloggers or screen capture malware
+  Compromised browser or OS
+  Physical device theft with weak master password
+  Side-channel attacks (timing, power analysis)
+  Phishing for master password
 
 **Assumption:** Your device and browser are trusted and free from malware.
 
