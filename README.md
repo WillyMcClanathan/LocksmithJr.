@@ -177,13 +177,13 @@ See [docs/SECURITY.md](docs/SECURITY.md) for complete threat model.
 
 Before using Locksmith Jr.:
 
-- [ ] **Use HTTPS** - Required for Web Crypto API
-- [ ] **Strong master password** - 12+ characters, mixed types
-- [ ] **Export regularly** - Backup your encrypted vault
-- [ ] **Trusted device** - Use on malware-free devices only
-- [ ] **Update browser** - Keep browser/OS patched
-- [ ] **Enable auto-lock** - Don't leave vault unlocked
-- [ ] **Test recovery** - Verify you can decrypt exports
+**Use HTTPS** - Required for Web Crypto API
+**Strong master password** - 12+ characters, mixed types
+**Export regularly** - Backup your encrypted vault
+**Trusted device** - Use on malware-free devices only
+**Update browser** - Keep browser/OS patched
+**Enable auto-lock** - Don't leave vault unlocked
+**Test recovery** - Verify you can decrypt exports
 
 ## 60-Second Demo
 
